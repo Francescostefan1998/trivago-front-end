@@ -1,0 +1,15 @@
+#navbar-image-logo {
+    width: 150px!important;
+    height: 60px!important;
+}
+
+#navbar-image-logo img {
+    height: 100%;
+    object-fit: contain!important;
+}
+
+.navbar-display-flex-end{
+    display: flex;
+    justify-content: end!important;
+    margin-right: 0!important;
+}
