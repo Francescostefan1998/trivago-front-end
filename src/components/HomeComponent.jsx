@@ -5,6 +5,11 @@ import { useState } from "react";
 const HomeComponent = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
+
+  const [city, setCity] = useState("");
+  const [maxPrice, setMaxPrice] = useState("");
+  const [minPrice, setMinPrice] = useState("");
+
   useEffect(() => {
     if (!localStorage.getItem("accessToken")) navigate("/login");
     if (searchParams.get("accessToken")) {
