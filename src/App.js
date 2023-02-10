@@ -6,6 +6,7 @@ import LoginComponent from "./components/LoginComponent";
 import UsersComponent from "./components/UsersComponent";
 import HomeComponent from "./components/HomeComponent";
 import NavbarComponent from "./components/NavbarComponent";
+import AddAccomodation from "./components/addAccomodation/AddAccomodation";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<HomeComponent />} />
             <Route path="/login" element={<LoginComponent />} />
             <Route path="users" element={<UsersComponent />} />
+            <Route path="/addAccomodation" element={<AddAccomodation />} />
           </Routes>
         </BrowserRouter>
       </div>

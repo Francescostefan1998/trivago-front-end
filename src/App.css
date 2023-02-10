@@ -23,7 +23,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.list-of-accomodation{
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
 
+.homepage-display-flex{
+  display: flex;
+  justify-content: center;
+  gap:10px
+}
+.homepage-display-flex input{
+}
 .App-link {
   color: #61dafb;
 }

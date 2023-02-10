@@ -25,7 +25,7 @@ const NavbarComponent = () => {
               </Nav.Link>
 
               <Nav.Link href="/login">Login</Nav.Link>
-              <Nav.Link href="/">Menue</Nav.Link>
+              <Nav.Link href="/addAccomodation">Add an Accomodation</Nav.Link>
 
               <Nav.Link href="/users">Users</Nav.Link>
             </Nav>
