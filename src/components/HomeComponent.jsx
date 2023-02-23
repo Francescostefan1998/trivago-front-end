@@ -36,7 +36,7 @@ const HomeComponent = () => {
   return (
     <Container>
       <Row className="justify-content-center mt-3">
-        <h1> Welcome to our app!</h1>
+        <h1> Search</h1>
         <div className="homepage-display-flex">
           <input
             type="text"
